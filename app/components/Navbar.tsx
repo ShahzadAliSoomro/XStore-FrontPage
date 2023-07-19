@@ -4,7 +4,11 @@ import { WiTime9 } from "react-icons/wi";
 import { RxCountdownTimer } from "react-icons/rx";
 import { AiOutlineShopping, AiOutlineUser } from "react-icons/ai";
 import { MdVerticalDistribute } from "react-icons/md";
-import { RiArrowDropDownLine } from "react-icons/ri";
+import { RiArrowDropDownLine, RiFacebookLine } from "react-icons/ri";
+import { TfiYoutube } from "react-icons/tfi";
+import { BiLogoTwitter, BiLogoWhatsapp } from "react-icons/bi";
+import { SlSocialInstagram } from "react-icons/sl";
+import { IoIosMusicalNote } from "react-icons/io";
 
 export default function Navbar() {
   return (
@@ -34,15 +38,18 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
+
+      {/* // second Navbar Start */}
+
       <nav className="bg-gray-50 dark:bg-[#E95D2A]">
         <div className="max-w-screen-xl px-4 py-3 mx-auto">
-          <div className="flex items-center">
-            <ul className="flex flex-row font-medium mt-0 mr-6 space-x-8 text-lg">
-              <div className="flex space-x-1">
-                <MdVerticalDistribute className="w-6 h-6" />
-                <p className="text-lg">All Departments</p>
-                <RiArrowDropDownLine className="text-lg w-8 h-8" />
-              </div>
+          <div className="flex items-center justify-between">
+            <div className="flex space-x-1">
+              <MdVerticalDistribute className="w-6 h-6" />
+              <p className="text-base">All Departments</p>
+              <RiArrowDropDownLine className="text-lg w-8 h-8" />
+            </div>
+            <ul className="flex flex-row font-medium mt-0 mr-6 space-x-8 text-base">
               <li>
                 <a
                   href="#"
@@ -107,9 +114,68 @@ export default function Navbar() {
               </li>
               <div className="flex space-x-1">
                 <AiOutlineUser className="w-6 h-6" />
-                <p className="text-lg">Log in / Sign up</p>
+                <p className="text-base">Log in / Sign up</p>
               </div>
             </ul>
+            <div className="flex ">
+              <p className="text-base">English </p>
+              <RiArrowDropDownLine className="text-lg w-8 h-8" />
+              <p className="text-gray-300">|</p>
+              <p className="text-base">USD</p>
+              <RiArrowDropDownLine className="text-lg w-8 h-8" />
+            </div>
+          </div>
+        </div>
+      </nav>
+      {/* // second Navbar End */}
+
+      {/* // third Navbar Start */}
+
+      <nav className="bg-gray-50 dark:bg-[#FFFFFF] shadow-lg">
+        <div className="max-w-screen-xl px-4 py-3 mx-auto">
+          <div className="flex items-center text-gray-600 justify-between">
+            <div className="flex space-x-2 ">
+              <RiFacebookLine className="w-5 h-5" />
+              <TfiYoutube className=" w-4 h-4" />
+              <BiLogoTwitter className=" w-5 h-5" />
+              <SlSocialInstagram className=" w-4 h-4" />
+              <BiLogoWhatsapp className=" w-5 h-5" />
+              <IoIosMusicalNote className=" w-5 h-5" />
+            </div>
+            <ul className="flex flex-row font-medium mt-0 mr-6 space-x-8 text-sm">
+              <div className="flex">
+                <p className="">TV & Monitor </p>
+                <RiArrowDropDownLine className="text-lg w-8 h-8" />
+              </div>
+              <div className="flex">
+                <p className="">Electronics</p>
+                <RiArrowDropDownLine className="text-lg w-8 h-8" />
+              </div>
+              <div className="flex">
+                <p className="">Cameras</p>
+                <RiArrowDropDownLine className="text-lg w-8 h-8" />
+              </div>
+              <div className="flex">
+                <p className="">Apparels</p>
+                <RiArrowDropDownLine className="text-lg w-8 h-8" />
+              </div>
+              <div className="flex">
+                <p className="">Apparels</p>
+                <RiArrowDropDownLine className="text-lg w-8 h-8" />
+              </div>
+              <div className="flex">
+                <p className="">Sale</p>
+                <RiArrowDropDownLine className="text-lg w-8 h-8" />
+              </div>
+              <div className="flex">
+                <p className="">Furniture</p>
+                <RiArrowDropDownLine className="text-lg w-8 h-8" />
+              </div>
+            </ul>
+
+            <div className="border border-green-600 p-2">
+              <p className="text-green-500">Sale! 30% OFF!</p>
+            </div>
           </div>
         </div>
       </nav>
