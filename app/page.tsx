@@ -5,7 +5,7 @@ import HeroSec from './components/HeroSec'
 export default function Home() {
   return (
     
-   <div className='bg-[#FFFFFF]'>
+   <div className='bg-[#FFFFFF] '>
     <Navbar />
     <HeroSec />
    </div> 

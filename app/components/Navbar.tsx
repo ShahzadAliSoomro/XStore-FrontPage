@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <div>
       <nav className="bg-white  border-gray-200 dark:bg-[#C84E22]">
-        <div className="flex justify-between flex-wrap space-x-5 items-center mx-auto max-w-screen-xl p-4">
+        <div className="flex justify-between flex-wrap space-x-5 items-center mx-auto max-w-screen-2xl p-4">
           <h2 className="text-4xl font-bold">XSTORE.</h2>
           <div className="flex items-center justify-between relative">
             <input
@@ -42,7 +42,7 @@ export default function Navbar() {
       {/* // second Navbar Start */}
 
       <nav className="bg-gray-50 dark:bg-[#E95D2A]">
-        <div className="max-w-screen-xl px-4 py-3 mx-auto">
+        <div className="max-w-screen-2xl px-4 py-3 mx-auto">
           <div className="flex items-center justify-between">
             <div className="flex space-x-1">
               <MdVerticalDistribute className="w-6 h-6" />
@@ -132,7 +132,7 @@ export default function Navbar() {
       {/* // third Navbar Start */}
 
       <nav className="bg-gray-50 dark:bg-[#FFFFFF] shadow-lg">
-        <div className="max-w-screen-xl px-4 py-3 mx-auto">
+        <div className="max-w-screen-2xl px-4 py-3 mx-auto">
           <div className="flex items-center text-gray-600 justify-between">
             <div className="flex space-x-2 ">
               <RiFacebookLine className="w-5 h-5" />
