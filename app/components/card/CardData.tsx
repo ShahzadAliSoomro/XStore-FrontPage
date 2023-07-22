@@ -34,7 +34,7 @@ const CardDataa = [
 export default function CardData() {
   return (
     <div>
-        <div className="flex ">
+        <div className="flex gap-14">
             {CardDataa.map((data) => (
               <div className="flex  ">
                 <div className=" ">
