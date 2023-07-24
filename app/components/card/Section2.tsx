@@ -4,6 +4,7 @@ import { MdOutlineChair, MdSoupKitchen } from 'react-icons/md'
 import { GiConsoleController } from 'react-icons/gi'
 import { LiaTshirtSolid} from 'react-icons/lia'
 import { HiMiniComputerDesktop } from 'react-icons/hi2'
+import BnrShopping from '../banner/BnrShopping';
 
 const CardData3 = [
     {
@@ -69,6 +70,7 @@ export default function Section2() {
             </div>
             
              </div>
+             <BnrShopping />
         </div>
   )
 }
