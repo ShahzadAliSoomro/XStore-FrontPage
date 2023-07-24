@@ -1,5 +1,7 @@
+"use client";
 import React from 'react'
 import Image from 'next/image';
+import { CheckOut } from '../CheckOut';
 
 const CardDataa = [
     {
@@ -52,6 +54,14 @@ export default function CardData() {
                     <h3 className="text-black">{data.mtitle}</h3>
                     <p className="text-black">icon add</p>
                     <p className="text-gray-500">{data.price}</p>
+                    <button className='text-black border rounded-full bg-green-400'
+                    onClick={(()=>{
+                      CheckOut({
+                        lineItems: [{price:"price_1NXMyALYXKEUBii0EhgLyv0o",quantity:1}]
+                      })
+                    })}
+                
+                  >Buy Now</button>
                   </div>
                 </div>
               </div>
