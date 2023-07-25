@@ -44,27 +44,27 @@ export default function Section2() {
                 <h1 className='text-black text-4xl font-bold '>Find Exactly What You Need</h1>
                 <p className='text-gray-500'>XStore is World's largest online marketplace connecting buyers with suppliers.</p>
             </div>
-            <div className='flex flex-col bg-white shadow box-border space-y-8 p-4 items-center'>
+            <div className='flex flex-col hover:bg-white hover:shadow box-border space-y-8 p-4 items-center'>
                 <BsPhone className='w-16 h-16 text-black'/>
                 <h3 className='text-black'>Eletronics</h3>
             </div>
-            <div className='flex flex-col box-border space-y-8   p-4 items-center'>
+            <div className='flex flex-col hover:bg-white hover:shadow box-border space-y-8   p-4 items-center'>
                 <MdSoupKitchen className='w-16 h-16 text-black'/>
                 <h3 className='text-black'>Kitchen</h3>
             </div>
-            <div className='flex flex-col box-border space-y-8   p-4 items-center'>
+            <div className='flex flex-col hover:bg-white hover:shadow box-border space-y-8   p-4 items-center'>
                 <GiConsoleController className='w-16 h-16 text-black'/>
                 <h3 className='text-black'>Console</h3>
             </div>
-            <div className='flex flex-col box-border space-y-8   p-4 items-center'>
+            <div className='flex flex-col hover:bg-white hover:shadow box-border space-y-8   p-4 items-center'>
                 <LiaTshirtSolid className='w-16 h-16 text-black'/>
                 <h3 className='text-black'>Apparels</h3>
             </div>
-            <div className='flex flex-col box-border space-y-8 p-4 items-center'>
+            <div className='flex flex-col hover:bg-white hover:shadow box-border space-y-8 p-4 items-center'>
                 <MdOutlineChair className='w-16 h-16 text-black'/>
                 <h3 className='text-black'>Furniture</h3>
             </div>
-            <div className='flex flex-col box-border space-y-8 shadow  p-4 items-center'>
+            <div className='flex flex-col hover:bg-white hover:shadow box-border space-y-8 p-4 items-center'>
                 <HiMiniComputerDesktop className='w-16 h-16 text-black'/>
                 <h3 className='text-black'>Computer</h3>
             </div>
