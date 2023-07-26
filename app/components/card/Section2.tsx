@@ -39,10 +39,10 @@ const CardData3 = [
 export default function Section2() {
   return (
     <div className='mx-auto max-w-screen-2xl pt-20'>
-        <div className='flex gap-10'>
+        <div className='grid grid-cols-7 gap-10'>
             <div className='flex flex-col space-y-5 '>
-                <h1 className='text-black text-4xl font-bold '>Find Exactly What You Need</h1>
-                <p className='text-gray-500'>XStore is World's largest online marketplace connecting buyers with suppliers.</p>
+                <h1 className='text-black text-2xl font-bold w-52'>Find Exactly What You Need</h1>
+                <p className='text-gray-500 w-48'>XStore is World's largest online marketplace connecting buyers with suppliers.</p>
             </div>
             <div className='flex flex-col hover:bg-white hover:shadow box-border space-y-8 p-4 items-center'>
                 <BsPhone className='w-16 h-16 text-black'/>

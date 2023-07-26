@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
+
 const CardDataa = [
     {
       id: 1,
@@ -71,6 +72,7 @@ export default function BnrCard() {
               </div>
             ))}
           </div>
+          
     </div>
   )
 }

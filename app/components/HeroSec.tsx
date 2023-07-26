@@ -7,20 +7,20 @@ import Section2 from "./card/Section2";
 
 export default function HeroSec() {
   return (
-    <div className="mx-auto max-w-screen-2xl p-10 ">
+    <div className="mx-auto max-w-screen-2xl p-10">
       <div className="w-full flex gap-5">
         <div className="w-full h-full lg:w-5/12 relative">
-          <div className="flex justify-center">
-            <div className="w-full ">
+          <div className="flex justify-center items-center">
+            <div className="overflow-auto">
               <Image
                 src="/images/1.jpg"
                 alt=""
-                className="w-full h-full"
+                className="w-full h-[830px] overflow-x-scroll"
                 width={1000}
                 height={1000}
               />
             </div>
-            <div className="flex flex-col items-center justify-center absolute top-56">
+            <div className="flex flex-col items-center space-y-4 justify-center absolute ">
               <h2 className="text-black text-3xl font-medium">
                 Introducing The New <br /> Surface Furniture.
               </h2>
