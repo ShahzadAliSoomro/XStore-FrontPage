@@ -15,7 +15,7 @@ export default function HeroSec() {
               <Image
                 src="/images/1.jpg"
                 alt=""
-                className="w-full h-[830px] overflow-x-scroll"
+                className="w-full h-[830px]"
                 width={1000}
                 height={1000}
               />

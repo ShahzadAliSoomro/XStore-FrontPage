@@ -8,7 +8,7 @@ export default function GlobalCard() {
         <h2 className="text-black text-2xl font-bold">
           Global Ofiginal Sources
         </h2>
-        <div className="grid grid-cols-2 gap-5 p-5">
+        <div className="grid grid-cols-2 gap-5 p-5 ">
           <div className="border p-3 relative flex justify-end items-center">
             <div className="w-full ">
               <Image
@@ -34,8 +34,8 @@ export default function GlobalCard() {
               <Image
                 src="/images/19.jpg"
                 alt=""
-                width={500}
-                height={500}
+                width={1000}
+                height={1000}
                 className="w-full h-full"
               />
             </div>
